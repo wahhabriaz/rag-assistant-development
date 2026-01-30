@@ -1,29 +1,30 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
-.Python
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+dist/
+build/
 
-# Environment
-.env
-.venv
-env/
+# Virtual environments
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
 
-# Data
-data/chroma/
-data/uploads/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+# OS / IDE
 .DS_Store
-Thumbs.db
+.idea/
+.vscode/
+*.swp
 
+# Env
+.env
+
+# Local data (DO NOT COMMIT)
+data/uploads/
+data/chroma/
+
+# Logs
+*.log
